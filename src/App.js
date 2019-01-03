@@ -11,31 +11,31 @@ class App extends Component {
       landsNeeded: 17,
       manaColors: [
         {
-          color: "white",
+          color: "White",
           pipsNeeded: 0,
           sourcesNeeded: 0,
           landType: "Plains"
         },
         {
-          color: "blue",
+          color: "Blue",
           pipsNeeded: 0,
           sourcesNeeded: 0,
           landType: "Islands"
         },
         {
-          color: "black",
+          color: "Black",
           pipsNeeded: 0,
           sourcesNeeded: 0,
           landType: "Swamps"
         },
         {
-          color: "red",
+          color: "Red",
           pipsNeeded: 0,
           sourcesNeeded: 0,
           landType: "Mountains"
         },
         {
-          color: "green",
+          color: "Green",
           pipsNeeded: 0,
           sourcesNeeded: 0,
           landType: "Forests"
@@ -56,15 +56,15 @@ class App extends Component {
     let numPips = Number(e.target.value);
     let color = e.target.name;
     let copy = [...this.state.manaColors];
-    if(color === "white"){
+    if(color === "White"){
       copy[0].pipsNeeded = numPips
-    } else if(color === "blue"){
+    } else if(color === "Blue"){
       copy[1].pipsNeeded = numPips
-    } else if(color === "black"){
+    } else if(color === "Black"){
       copy[2].pipsNeeded = numPips
-    } else if(color === "red"){
+    } else if(color === "Red"){
       copy[3].pipsNeeded = numPips
-    } else if(color === "green"){
+    } else if(color === "Green"){
       copy[4].pipsNeeded = numPips
     }
     let totalPips = 0;
@@ -86,31 +86,31 @@ class App extends Component {
       landsNeeded: 17,
       manaColors: [
         {
-          color: "white",
+          color: "White",
           pipsNeeded: 0,
           sourcesNeeded: 0,
           landType: "Plains"
         },
         {
-          color: "blue",
+          color: "Blue",
           pipsNeeded: 0,
           sourcesNeeded: 0,
           landType: "Islands"
         },
         {
-          color: "black",
+          color: "Black",
           pipsNeeded: 0,
           sourcesNeeded: 0,
           landType: "Swamps"
         },
         {
-          color: "red",
+          color: "Red",
           pipsNeeded: 0,
           sourcesNeeded: 0,
           landType: "Mountains"
         },
         {
-          color: "green",
+          color: "Green",
           pipsNeeded: 0,
           sourcesNeeded: 0,
           landType: "Forests"

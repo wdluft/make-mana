@@ -6,8 +6,12 @@ body {
   font-family: 'Libre Franklin', sans-serif;
 }
 
+p {
+  margin: 0px;
+}
+
 .container {
-  max-width: 500px;
+  max-width: 400px;
   margin: 10vh auto;
   padding: 10px;
   border-radius: 25px;
@@ -15,7 +19,7 @@ body {
 }
 
 /*=====================================================*/
-/*APP TITLE STYLES*/
+/* APP TITLE STYLES */
 /*=====================================================*/
 
 #app-title {
@@ -23,8 +27,22 @@ body {
 }
 
 /*=====================================================*/
+/* INPUT STYLES */
 /*=====================================================*/
 
+.input-section {
+  margin: 0px 0px 10px 0px;
+}
+
+.num-input {
+  width: 25%;
+}
+
+/*=====================================================*/
+/* RESET BUTTON STYLING */
+/*=====================================================*/
+
+/*add stylying to center the reset button*/
 
 /*=====================================================*/
 /* MADE BY STYLING */
@@ -40,5 +58,5 @@ body {
 }
 
 #made-by a:hover {
-  color: #420420;
+  color: #00d8ff;
 }
