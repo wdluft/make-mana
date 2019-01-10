@@ -24,9 +24,10 @@ class Color extends React.Component {
 
 		return (
 			<div className={"mana-section " + color + "-section input-section"}>
-				<label for={color}>{color} Pips: </label>
+				<label hmltFor={color}>{color} Pips: </label>
 				<input id={color} className="num-input" name={color} type="number" max="100" min="0" value={pipsNeeded} onChange={this.props.handleChange}/>
 				<p>{landType} Needed: {sourcesNeeded}</p>
+				<hr />
 			</div>
 		)
 	}

@@ -16,6 +16,10 @@ p {
   padding: 10px;
   border-radius: 25px;
   border: 2px solid #c4c4c4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*=====================================================*/
@@ -27,15 +31,25 @@ p {
 }
 
 /*=====================================================*/
+/* SECTION STYLES */
+/*=====================================================*/
+
+hr {
+  border: 1px solid #c4c4c4;
+  width: 100%;
+}
+
+/*=====================================================*/
 /* INPUT STYLES */
 /*=====================================================*/
 
 .input-section {
-  margin: 0px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 .num-input {
-  width: 25%;
+  width: 100%;
 }
 
 /*=====================================================*/
@@ -43,6 +57,9 @@ p {
 /*=====================================================*/
 
 /*add stylying to center the reset button*/
+#reset-btn {
+  width: 100%;
+}
 
 /*=====================================================*/
 /* MADE BY STYLING */
@@ -50,6 +67,7 @@ p {
 
 #made-by {
   text-align: center;
+  margin-top: 20px;
 }
 
 #made-by a {
